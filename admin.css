@@ -1,0 +1,47 @@
+   i { color: white; }
+        span { color: white; }
+        i:hover, span:hover, a:hover { color: #443f38; }
+        .nav-pills .nav-link { width: 200px; }
+        .nav-pills .nav-link:hover { background-color: #6c757d; transition: background-color 0.3s ease, padding 0.3s ease; }
+        .nav-link.active { background-color: #6c757d; }
+        .main { padding: 20px; }
+        .panel { border: 1px solid #ccc; border-radius: 5px; padding: 20px; margin-bottom: 20px; }
+        .form-group { margin-bottom: 20px; }
+        .form-group label { font-weight: bold; }
+        .form-control-file { width: 100%; }
+        .preview-image { max-width: 200px; margin-top: 10px; margin-left:10px }
+        .btn-add { margin-top: 10px; }
+        .sub-images-preview { margin-top: 5px; }
+        .sub-images-label, .sub-image-label { font-weight: bold; }
+        .sub-image-container { margin-bottom: 10px; }
+         .log-button {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 9999; /* Ensure it's on top of other elements */
+        }
+
+        .log-button {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            z-index: 9999; /* Ensure it's on top of other elements */
+        }
+
+        .log-out {
+            background-color: #dc3545; /* Red color */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .log-out:hover {
+            background-color: #c82333; /* Darker red on hover */
+        }
+         .collapse {
+        transition: height 0.3s ease;
+    }
