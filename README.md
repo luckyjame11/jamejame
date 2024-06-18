@@ -1,2 +1,37 @@
-# jamejame
+# DimeFootwear
 "DimeFootwear: A school project utilizing PHP, HTML, JavaScript, MySQL, and CSS. Manage inventory and facilitate online shoe shopping. Educational tool for web development and e-commerce, offering hands-on learning."
+
+## Introduction
+DimeFootwear is a web-based shoe store developed as a student project. It provides a platform for users to browse and purchase footwear online.
+
+## Technologies Used
+- PHP
+- HTML
+- JavaScript
+- MySQL
+- CSS
+
+## Installation Steps
+1. **Clone Repository:** Clone this repository to your local machine using the following command:
+git clone https://github.com/heypaulleey/DimeFootwear.git
+
+2. **Set Up Database:** Import the provided SQL file (`dimefootwear.sql`) into your MySQL database management system.
+
+3. **Configure Database Connection:** Update the database connection parameters in `config.php` with your MySQL server details.
+
+4. **Run the Application:** Start your local web server (e.g., Apache) and navigate to the project directory in your web browser.
+
+## Usage
+- Users can register, log in, browse various shoe categories, add items to their cart, and proceed to checkout for purchase.
+- Administrators can manage product listings, view orders, and update order statuses through the admin panel.
+
+## Dependencies
+- PHPMailer: Used for sending email notifications to users and administrators.
+composer require phpmailer/phpmailer
+- Dompdf: Used for generating PDF invoices for orders.
+
+## Disclaimer
+This project is developed for educational purposes as part of a student project. All rights reserved to respective owners of the libraries used. Ensure compliance with legal and ethical guidelines when using this software.
+
+## Contributors
+- [Paul Dancila](https://github.com/heypaulleey)
